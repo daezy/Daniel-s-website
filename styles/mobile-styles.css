@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+	.section-1 .row .col-md-6:last-child .panel {
+		width: initial;
+		height: initial;
+		position: initial;
+	}
+	header .navbar-brand {
+		padding-left: 0.5rem;
+	}
+	header .navbar .nav-item:last-child {
+		padding-right: 1.5rem;
+	}
+	header::before {
+		display: none;
+	}
+}
